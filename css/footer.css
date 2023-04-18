@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+.footer__all{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: auto;
+    margin-top: 10px;
+}
+.nosotros{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.titulo{
+    display: flex;
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    
+}
+.titulo h4{
+    font-size: 20px;
+    font-weight:300;
+    font-family: monospace;
+}
+.footer__textos{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    width: 40%;
+    box-sizing: border-box;
+}
+.footer__parrafo a,
+.footer__parrafo
+{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    font-size:15px
+}
+.footer__github{
+    display: flex;
+    display: inline;
+    
+}
+
+#sub__logo{
+    width: 1em;
+    height: 1em;
+}
+.footer__img{
+    width: 50%;
+    justify-content: end;
+}
+
+.footer__all img{
+    width: 60%;
+    height:30%
+    
+}
+
+
+.nosotros__textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nosotros__textos a{
+    text-decoration: none;
+    color: black;
+}
+
+.nosotros__contacto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family:'Times New Roman', Times, serif;
+}
+label{
+    background-color:white;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.nosotros__contacto input,
+.nosotros__contacto label,
+.nosotros__contacto textarea{
+display: block;
+font-family: Arial, Helvetica, sans-serif;
+border: none;
+width: 90%;
+box-sizing: border-box;
+height: 30px;
+background-color: rgb(215, 227, 237);
+}
+
+#submit{
+    width: 80%;
+    margin: 10px auto;
+    height: 2rem;
+    border-radius: 5px;
+    border:2px dotted  ;
+    background-color: rgb(251, 147, 165);
+    color: rgb(252, 252, 252);
+    font-size: 1rem;
+}
+form{
+        width: 40%;
+        justify-content: center;
+    }
+
+    @media screen and (max-width:1100px) {
+        .nosotros{
+            flex-wrap:nowrap;
+        }
+        #submit{
+            margin: 15px auto;
+            width:90%;
+        }
+        .footer__all img, .footer__textos{
+            width: 30%;
+        }
+        .nosotros__contacto{
+            display:flex;
+            justify-content: center;
+        }
+    }
+
+@media screen and (max-width:500px) {
+    .nosotros{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .nosotros__textos,
+    .nosotros__contacto{
+        width: 100%;
+        text-align: center;
+        margin:10px;
+    }
+    #submit{
+        margin: 15px auto;
+        width:90%;
+    }
+    .footer__all img{
+        width: 40%;
+    }
+    .footer__all{
+        justify-content:center;
+    }
+}

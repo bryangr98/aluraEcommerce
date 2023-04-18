@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shey Boutique</title>
+    <link rel="shortcut icon" href="/images/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/css/header-banner.css">
+    <link rel="stylesheet" href="/css/productos.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="inicio">
+        <div>
+            <div class="logo">
+                <picture>
+                    <img src="/images/logo_flamingo.svg" alt="logo">
+                </picture>
+            </div>
+            <div class="buscar">
+                <input id="buscar__boton" type="search" name="buscar" placeholder="  buscar">
+                <!-- <img src="/images/search.png" id="buscar__img"> -->
+            </div>
+            <div id="contenedor__resultados">
+            </div>
+            <div class="login">
+                <input id="login__boton" type="button" value="login" >
+            </div>
+        </div>
+    </header>
+    <section class="banner__contaier">
+        <div class="banner__carrusel">
+            <img src="/images/home.jpg" alt="img" class="banner__img">
+            <img src="/images/home.jpg" alt="img" class="banner__img">
+            <img src="/images/home.jpg" alt="img" class="banner__img">
+        </div>
+        <button class="boton__antes">&#10094;</button>
+        <button class="boton__despues">&#10095;</button>
+    </section>
+
+    <section class="productos">
+        <div class="titulos__sub">
+            <div>
+                <h2>Conjuntos</h2>
+            </div>
+            <div class="linkProductos">
+            </div>
+        </div>
+        <div class="productos__reel" id="productos__reelConjuntos">
+        
+        </div>
+    </section>
+
+    <section class="productos">
+        <div class="titulos__sub">
+            <div>
+                <h2>Blusas</h2>
+            </div>
+            <div class="linkProductos">
+            </div>
+        </div>
+        <div class="productos__reel" id="productos__reelBlusas">
+    </section>
+    <section class="productos">
+        <div class="titulos__sub">
+            <div>
+                <h2>Accesorios</h2>
+            </div>
+            <div class="linkProductos">
+            </div>
+        </div>
+        <div class="productos__reel" id="productos__reelAccesorios">
+
+    </section>
+
+    <iframe src="./pages/footer.html" frameborder="0" class="footer"></iframe>
+
+    <script type="module" src="/JavaScript/carrusel-loginBoton.js"></script>
+    <script type="module"  src="/JavaScript/index.js"></script>
+</body>
+</html>

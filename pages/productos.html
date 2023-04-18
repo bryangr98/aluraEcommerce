@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto</title>
+    <link rel="stylesheet" href="../css/productos_page.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>Productos</h1>
+			<a href="../pages/agregarProducto.html" class="addProduct ocultar"><input type="button" class="addProduct" id="addProduct" value="Agregar Producto"></a>
+		</div>
+		<div class="table__container">
+			<table  >
+				<thead>
+					<tr>
+						<th>Nombre</th>
+						<th>Precio</th>
+						<th>Cantidad</th>
+						<th>Imagen</th>
+					</tr>
+				</thead>
+				<tbody  data-tabla id="tablaCuerpo">
+				</tbody>
+			</table>
+		</div>
+		
+		<p id="volver" class="volver">Volver al inicio</p>
+	</div>
+<script type="module" src="../JavaScript/productos.js"></script>
+</body>
+</html>

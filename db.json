@@ -1,0 +1,155 @@
+{
+  "articulo": [
+    {
+      "nombre": "anillos",
+      "imagen": "../images/accesorios_1.jpg",
+      "precio": "120",
+      "cantidad": "10",
+      "id": 585,
+      "tipo": "accesorio",
+      "descripcion": "anillos con forma de serpiente "
+    },
+    {
+      "nombre": "blusa",
+      "imagen": "../images/blusa_1.jpg",
+      "precio": "120",
+      "cantidad": "10",
+      "id": 599,
+      "tipo": "blusa",
+      "descripcion": "blusa color naranja"
+    },
+    {
+      "nombre": "blusa 4",
+      "imagen": "../images/blusa_5.jpg",
+      "precio": "50",
+      "cantidad": "2",
+      "id": 4936,
+      "tipo": "blusa",
+      "descripcion": "blusa verde obscuro "
+    },
+    {
+      "nombre": "aretes",
+      "imagen": "../images/accesorios_3.jpg",
+      "precio": "10",
+      "cantidad": "3",
+      "id": 7045,
+      "tipo": "accesorio",
+      "descripcion": "aretes en forma de panditas gomitas"
+    },
+    {
+      "nombre": "anillos 2 ",
+      "imagen": "../images/accesorios_5.jpg",
+      "precio": "12",
+      "cantidad": "3",
+      "id": 3386,
+      "tipo": "accesorio",
+      "descripcion": "par de anillos"
+    },
+    {
+      "nombre": "Blusa azul",
+      "imagen": "https://quarry.vteximg.com.br/arquivos/ids/359034-500-500/QD030049AZ-1.jpg?v=637618365526700000",
+      "precio": "15",
+      "cantidad": "2",
+      "id": 9270,
+      "tipo": "blusa",
+      "descripcion": "blusa azul corta"
+    },
+    {
+      "nombre": "Blusa verde",
+      "imagen": "https://dsnegsjxz63ti.cloudfront.net/images/pg/m_3263673dc260d62.jpg",
+      "precio": "150",
+      "cantidad": "1",
+      "id": 5374,
+      "tipo": "blusa",
+      "descripcion": "blusa color verde"
+    },
+    {
+      "nombre": "anillo dorado",
+      "imagen": "https://media.vogue.es/photos/6220e326316debc1f071f7d8/master/w_320%2Cc_limit/Captura%2520de%2520pantalla%25202022-03-03%2520a%2520las%252016.47.44.png",
+      "precio": "120",
+      "cantidad": "5",
+      "id": 7785,
+      "tipo": "accesorio",
+      "descripcion": "anillo dorado forma de concha"
+    },
+    {
+      "nombre": "anillo diamante",
+      "imagen": "https://www.coppel.com/images/catalog/pm/8867423-1.jpg",
+      "precio": "15",
+      "cantidad": "10",
+      "id": 2673,
+      "tipo": "accesorio",
+      "descripcion": "anillo con incrustación de diamante"
+    },
+    {
+      "nombre": "vestido negro",
+      "imagen": "https://cf.shopee.com.mx/file/a234752094ed47f08443fbf19e2ff058",
+      "precio": "150",
+      "cantidad": "5",
+      "id": 1777,
+      "tipo": "accesorio",
+      "descripcion": "vestido ajustado color negro"
+    },
+    {
+      "nombre": "Pijama",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAcOi1yZtV5o3qtJQ0eWLLuLnJFf1XrgkF3g&usqp=CAU",
+      "precio": "200",
+      "cantidad": "2",
+      "id": 6603,
+      "tipo": "conjunto",
+      "descripcion": "Pijama blanca comoda para mujer"
+    },
+    {
+      "nombre": "conjunto rosa ",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpfnHYnl2z1Y2ymGG4AivXg4bscNRcTDsTIw&usqp=CAU",
+      "precio": "280",
+      "cantidad": "1",
+      "id": 5672,
+      "tipo": "conjunto",
+      "descripcion": "conjunto rosa"
+    },
+    {
+      "nombre": "conjunto rosa",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpfnHYnl2z1Y2ymGG4AivXg4bscNRcTDsTIw&usqp=CAU",
+      "precio": "280",
+      "cantidad": "1",
+      "id": 7409,
+      "tipo": "conjunto",
+      "descripcion": "conjunto rosa"
+    },
+    {
+      "nombre": "algo",
+      "imagen": "https://quarry.vteximg.com.br/arquivos/ids/359034-500-500/QD030049AZ-1.jpg?v=637618365526700000",
+      "precio": "150",
+      "cantidad": "2",
+      "id": 2624,
+      "tipo": "blusa",
+      "descripcion": "es algo de ropa supongo"
+    },
+    {
+      "nombre": "otro conjunto",
+      "imagen": "https://cf.shopee.com.mx/file/a234752094ed47f08443fbf19e2ff058",
+      "precio": "200",
+      "cantidad": "1",
+      "id": 1709,
+      "tipo": "blusa",
+      "descripcion": "es otro productos para agregar y llenar espacio"
+    }
+  ],
+  "cliente": [
+    {
+      "nombreCliente": "Bryan ",
+      "correo": "bryangr98@outlook.com",
+      "contrasenia": "12345678",
+      "tipoCliente": "admi",
+      "id": 1
+    },
+    {
+      "nombreCliente": "Sharon",
+      "correo": "sha00@outlook.com",
+      "contrasenia": "12345678",
+      "tipoCliente": "admi",
+      "id": 2
+    }
+  ]
+}

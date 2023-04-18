@@ -1,0 +1,131 @@
+.productos{
+  height:36.5vh;
+  width: 90%;
+  margin: 0 auto;
+}
+.producto__container:nth-of-type(n+7){
+  display: none;
+}
+
+a{
+  text-decoration: none;
+}
+.productos__reel{
+    background-color:transparent;
+    border-radius: 15px;
+}
+.titulos__sub{
+    display: flex;
+    margin-top:1vh;
+    justify-content: space-between;
+    text-align: center;
+    height: auto;
+}
+.titulos__sub div,
+.titulos__sub p ,
+.titulos__sub h2{
+    display: inline;
+    
+}
+.titulos__sub h2{
+    display: inline-block;
+}
+
+.producto__container{
+    min-width: 120px;
+    display: inline-block;
+    text-align: center;
+    width: calc(95%/7);
+    height: 26vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: #f0b5eb;
+    box-shadow: 0 0 15px 2px rgb(228, 62, 214);
+}
+.productos__reel{
+    display: flex;
+    justify-content: space-around;
+}
+
+.picture__container{
+    display: flex;
+    display: inline;
+    overflow: hidden;
+    
+}
+
+@keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    33.3% {
+      transform: translateX(-100%);
+    }
+    66.6% {
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+
+.piture-titulo{
+    display: inline;
+}
+
+.picture__img{
+    height: 11vh;
+    
+}
+.footer{
+  margin-top: 20px;
+}
+@media screen and (max-width: 1100px) {
+  .producto__container:nth-of-type(n+5) {
+    display: none;
+  }
+  .productos__reel{
+      display: flex;
+      justify-content: space-around;
+  }
+  /* .producto__container h4{
+      display: none;
+  } */
+  .producto__container{
+    width: calc(95%/5);
+  }
+}
+
+@media screen and (max-width: 800px) {
+    .producto__container:nth-of-type(n+4) {
+      display: none;
+    }
+    .productos__reel{
+        display: flex;
+        justify-content: space-around;
+    }
+    /* .producto__container h4{
+        display: none;
+    } */
+    .producto__container{
+      width: calc(95%/4);
+    }
+  }
+
+  @media screen and (max-width: 550px ){
+    .producto__container:nth-of-type(n+3){
+      display: none;
+    }
+    .productos{
+      height: auto;
+    }
+    .producto__container{
+      width: calc(95%/3);
+    }
+
+  .footer{
+    height: 500px;
+  }
+  }

@@ -1,0 +1,18 @@
+{
+  "name": "tienda",
+  "version": "1.0.0",
+  "description": "Tienda Shey Alura",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Shop",
+    "Alura"
+  ],
+  "author": "Bryan Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}

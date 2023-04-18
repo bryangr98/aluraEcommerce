@@ -1,0 +1,28 @@
+.div__saludo{
+    display: flex;
+    width: 120px;
+    height: 25px;
+    background-color: bisque;
+    position:absolute;
+    right: 3%;
+    top: 10px;
+    box-shadow: -5px 5px 5px rgba(195, 135, 145,0.5);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.div__saludo p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer{
+    height: 450px;
+}
+
+
+@media screen and (max-width:700px){
+    .footer{
+        height: 600px;
+    }
+}

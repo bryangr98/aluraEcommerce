@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=100vw , initial-scale=1.0">
+    <title>Agregar producto Shey</title>
+    <link rel="stylesheet" href="../css/agregarProducto.css">
+</head>
+<body>
+    <div class="container">
+		<h1>Agregar productos</h1>
+		
+		<form method="post" enctype="multipart/form-data" data-form>
+			<div class="drag">
+
+			</div>
+			<input type="text" id="imagen" name="imagen" placeholder="Agregue la URL de la imagen" data-img/> 
+			
+			<input type="text" id="nombre" name="nombre" placeholder="nombre" required data-nombre maxlength="20"/>
+			
+			<input type="number" id="precio" name="precio" placeholder="precio" required data-precio/>
+			
+			<input type="number" id="cantidad" name="cantidad" placeholder="cantidad" required data-cantidad/>
+			<label for="descripcion">Describe tu producto aqui</label>
+			<textarea name="descripcion" id="descripcion" cols="30" rows="5" data-descripcion maxlength="100"></textarea>
+			<label for="tipo" id="labelSelect">Selecciona el tipo</label>
+			<select name="tipo" id="tipo"  required data-tipo>
+				<option value="accesorio">accesorio</option>
+				<option value="blusa">blusa</option>
+				<option value="conjunto">conjunto</option>
+			</select>
+			
+			<button type="submit" id="enviar">Agregar producto</button>
+		</form>
+		
+		<p class="volver" id="volver">Volver al inicio</p>
+	</div>
+    <script type="module" src="../JavaScript/agregarProductos.js"></script>
+</body>
+</html>
